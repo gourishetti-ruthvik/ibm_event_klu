@@ -47,7 +47,7 @@ const QuantumDemo: React.FC = () => {
   const onesPercentage = totalFlips > 0 ? (onesCount / totalFlips * 100).toFixed(1) : 0;
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
+    <section id="demo" className="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.div

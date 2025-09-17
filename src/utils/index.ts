@@ -46,3 +46,37 @@ export const getDaysUntilEvent = (eventDate: string): number => {
   const timeDiff = event.getTime() - now.getTime();
   return Math.ceil(timeDiff / (1000 * 3600 * 24));
 };
+
+/**
+ * Smooth scroll to a section by ID
+ */
+export const scrollToSection = (sectionId: string): void => {
+  try {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start',
+        inline: 'nearest'
+      });
+    } else {
+      console.warn(`Section with ID '${sectionId}' not found`);
+    }
+  } catch (error) {
+    console.error('Error scrolling to section:', error);
+  }
+};
+
+/**
+ * Scroll to top of the page
+ */
+export const scrollToTop = (): void => {
+  try {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  } catch (error) {
+    console.error('Error scrolling to top:', error);
+  }
+};
