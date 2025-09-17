@@ -18,6 +18,34 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* Performance improvements */
+* {
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better focus visibility for accessibility */
+button:focus,
+a:focus {
+  outline: 2px solid #7c3aed;
+  outline-offset: 2px;
+}
+
+/* Improve button hover states */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Optimize images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 * {
   box-sizing: border-box;
 }
