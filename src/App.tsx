@@ -1,5 +1,6 @@
 import './App.css';
 import extensionEvent1 from './assets/images/extension-event-1.png';
+import klUniversityLogo from './assets/images/logo.png';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         fontSize: '0.875rem',
         fontWeight: '600'
       }}>
-        🌐 ONLINE MEETING EVENT • Join via video call from anywhere • Meeting links sent after registration
+        🌐 VIRTUAL EVENT • Join via video call from anywhere • Event access links sent after registration
       </div>
       
       <header style={{ 
@@ -32,10 +33,14 @@ function App() {
           alignItems: 'center' 
         }}>
           <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold', margin: 0 }}>
-            Qiskit Fall Fest 2025 - Online Meeting
+            Qiskit Fall Fest 2025
           </h1>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <span style={{ color: '#666' }}>Virtual Event</span>
+            <img 
+              src={klUniversityLogo} 
+              alt="KL University Logo" 
+              style={{ height: '40px', width: 'auto' }}
+            />
             <span style={{ color: '#0066cc', fontWeight: 'bold', fontSize: '1.5rem' }}>IBM</span>
           </div>
         </div>

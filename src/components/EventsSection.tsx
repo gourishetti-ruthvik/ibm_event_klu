@@ -121,20 +121,20 @@ const EventsSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Online Meeting Schedule</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Virtual Event Schedule</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Three days of live interactive online meetings featuring quantum computing workshops and talks!
+            Three days of live interactive virtual sessions featuring quantum computing workshops and talks!
           </p>
           
           {/* Online Event Information */}
           <div className="flex flex-col items-center space-y-3 mt-6">
             <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold">
               <Wifi size={16} />
-              <span>LIVE ONLINE MEETINGS</span>
+              <span>LIVE VIRTUAL EVENT</span>
             </div>
             <div className="flex items-center justify-center space-x-2 text-gray-500">
               <Monitor size={20} />
-              <span>Video Conference Platform • November 3-5, 2025</span>
+              <span>Virtual Event Platform • November 3-5, 2025</span>
             </div>
             <div className="text-sm text-gray-600 bg-gray-50 px-4 py-2 rounded-lg">
               📧 Zoom/Google Meet links will be shared via email after registration

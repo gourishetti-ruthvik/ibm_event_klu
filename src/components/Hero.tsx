@@ -92,7 +92,7 @@ const Hero: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Qiskit Fall Fest 2025
               <div className="text-2xl md:text-3xl font-normal text-blue-600 mt-2">
-                Virtual Online Meeting
+                Virtual Event
               </div>
             </h1>
             
@@ -104,31 +104,31 @@ const Hero: React.FC = () => {
               className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full text-base font-bold mb-6 shadow-lg"
             >
               <Wifi size={20} />
-              <span>🌐 LIVE ONLINE MEETING</span>
+              <span>🌐 LIVE VIRTUAL EVENT</span>
             </motion.div>
             
             {/* Platform Info */}
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8 max-w-2xl mx-auto">
               <h3 className="text-lg font-semibold text-blue-900 mb-3 flex items-center">
                 <Monitor size={20} className="mr-2" />
-                Online Meeting Platform
+                Virtual Event Platform
               </h3>
               <div className="space-y-2 text-blue-800">
                 <div className="flex items-center space-x-2">
                   <span>�</span>
-                  <span>Interactive video meetings via Zoom/Google Meet</span>
+                  <span>Interactive virtual sessions via Zoom/Google Meet</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <span>🔗</span>
-                  <span>Meeting links & passwords sent after registration</span>
+                  <span>Virtual event links & passwords sent after registration</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <span>🌍</span>
-                  <span>Join the online meeting from anywhere worldwide</span>
+                  <span>Join the virtual event from anywhere worldwide</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <span>💬</span>
-                  <span>Live Q&A, chat, and breakout room sessions</span>
+                  <span>Live Q&A, chat, and virtual breakout sessions</span>
                 </div>
               </div>
             </div>
@@ -144,8 +144,8 @@ const Hero: React.FC = () => {
               </div>
             </div>
             <p className="text-xl text-gray-700 mb-12 max-w-3xl mx-auto">
-              Join us for <strong>interactive online meetings</strong> featuring three days of quantum computing workshops, talks, and networking. 
-              Connect with quantum enthusiasts, researchers, and industry experts through live video sessions from around the globe!
+              Join us for this <strong>interactive virtual event</strong> featuring three days of quantum computing workshops, talks, and networking. 
+              Connect with quantum enthusiasts, researchers, and industry experts through live virtual sessions from around the globe!
             </p>
           </motion.div>
 
@@ -186,14 +186,14 @@ const Hero: React.FC = () => {
                 onClick={handleRegister}
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
-                🚀 Register for Online Meeting
+                🚀 Register for Virtual Event
               </button>
               <button className="bg-white hover:bg-gray-50 text-purple-600 font-semibold py-4 px-8 rounded-lg border-2 border-purple-600 transition-colors duration-300">
-                📅 View Meeting Schedule
+                📅 View Virtual Event Schedule
               </button>
             </div>
             <div className="text-sm text-gray-600 max-w-md mx-auto">
-              💡 <strong>Free online meeting</strong> • Join via video call with internet access
+              💡 <strong>Free virtual event</strong> • Join via video call with internet access
             </div>
           </motion.div>
         </div>

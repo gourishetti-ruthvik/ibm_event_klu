@@ -13,19 +13,19 @@ const Footer: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h3 className="text-xl font-bold mb-4">Qiskit Fall Fest 2025 - Online Meeting</h3>
+            <h3 className="text-xl font-bold mb-4">Qiskit Fall Fest 2025 - Virtual Event</h3>
             <p className="text-gray-300 mb-4">
               Promoting accessibility of quantum computing to students and researchers through 
-              interactive online meetings hosted by KL University in partnership with IBM.
+              interactive virtual sessions hosted by KL University in partnership with IBM.
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-gray-300">
                 <Wifi size={16} />
-                <span>Live Online Meeting Event</span>
+                <span>Live Virtual Event</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <Monitor size={16} />
-                <span>Video Conference Platform</span>
+                <span>Virtual Event Platform</span>
               </div>
             </div>
           </motion.div>
@@ -73,16 +73,16 @@ const Footer: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <h3 className="text-xl font-bold mb-4">Join the Online Meeting</h3>
+            <h3 className="text-xl font-bold mb-4">Join the Virtual Event</h3>
             <div className="space-y-4">
               <button
                 onClick={() => window.open('https://forms.google.com/your-form-link', '_blank')}
                 className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300"
               >
-                📹 Register for Online Meeting
+                📹 Register for Virtual Event
               </button>
               <div className="text-sm text-gray-400 text-center">
-                💻 Join from anywhere • Video meeting links sent after registration
+                💻 Join from anywhere • Virtual event links sent after registration
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <Mail size={16} />
