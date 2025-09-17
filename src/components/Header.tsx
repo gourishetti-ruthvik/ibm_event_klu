@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import ibmLogo from '../../assets/images/ibm.png';
 
 const Header: React.FC = () => {
   return (
@@ -28,7 +29,7 @@ const Header: React.FC = () => {
             transition={{ duration: 0.6 }}
           >
             <span className="text-sm text-gray-600">KL University</span>
-            <div className="text-2xl font-bold text-blue-600">IBM</div>
+            <img src={ibmLogo} alt="IBM Logo" className="h-8" />
           </motion.div>
         </div>
       </div>

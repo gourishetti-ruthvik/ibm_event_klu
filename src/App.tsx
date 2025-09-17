@@ -2,6 +2,8 @@ import './App.css';
 import extensionEvent1 from './assets/images/extension-event-1.png';
 import klUniversityLogo from './assets/images/logo.png';
 
+import ibmLogo from './assets/images/ibm.png';
+
 function App() {
   return (
     <div className="App">
@@ -41,7 +43,7 @@ function App() {
               alt="KL University Logo" 
               style={{ height: '40px', width: 'auto' }}
             />
-            <span style={{ color: '#0066cc', fontWeight: 'bold', fontSize: '1.5rem' }}>IBM</span>
+            <img src={ibmLogo} alt="IBM Logo" style={{ height: '32px' }} />
           </div>
         </div>
       </header>
