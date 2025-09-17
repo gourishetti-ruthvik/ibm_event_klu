@@ -137,7 +137,7 @@ function App() {
               }}
               onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#6d28d9'}
               onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#7c3aed'}
-              onClick={() => window.open('https://forms.google.com/your-form-link', '_blank')}
+              onClick={() => window.open('https://forms.gle/hyFFHEGrUmhwtaoN9', '_blank')}
               >
                 Register Now
               </button>
@@ -153,6 +153,12 @@ function App() {
               }}
               onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#f9fafb'}
               onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'white'}
+              onClick={() => {
+                const eventsSection = document.getElementById('events-section');
+                if (eventsSection) {
+                  eventsSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
               >
                 View Agenda
               </button>
@@ -286,7 +292,7 @@ function App() {
           </div>
         </section>
 
-        <section style={{ 
+        <section id="events-section" style={{ 
           backgroundColor: 'white', 
           padding: '4rem 1rem' 
         }}>
@@ -425,7 +431,7 @@ function App() {
               cursor: 'pointer',
               marginBottom: '2rem'
             }}
-            onClick={() => window.open('https://forms.google.com/your-form-link', '_blank')}
+            onClick={() => window.open('https://forms.gle/hyFFHEGrUmhwtaoN9', '_blank')}
           >
             Register for Event
           </button>

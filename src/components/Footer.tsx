@@ -76,7 +76,7 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4">Join the Virtual Event</h3>
             <div className="space-y-4">
               <button
-                onClick={() => window.open('https://forms.google.com/your-form-link', '_blank')}
+                onClick={() => window.open('https://forms.gle/hyFFHEGrUmhwtaoN9', '_blank')}
                 className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300"
               >
                 📹 Register for Virtual Event

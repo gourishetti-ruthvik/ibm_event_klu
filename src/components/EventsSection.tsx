@@ -112,7 +112,7 @@ const EventsSection: React.FC = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section id="events-section" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -211,7 +211,7 @@ const EventsSection: React.FC = () => {
               Don't miss this opportunity to learn quantum computing from industry experts
             </p>
             <button 
-              onClick={() => window.open('https://forms.google.com/your-form-link', '_blank')}
+              onClick={() => window.open('https://forms.gle/hyFFHEGrUmhwtaoN9', '_blank')}
               className="bg-white text-purple-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300"
             >
               Register Now

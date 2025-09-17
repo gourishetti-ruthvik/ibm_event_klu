@@ -42,8 +42,16 @@ const Hero: React.FC = () => {
   }, [eventDate]);
 
   const handleRegister = () => {
-    // This will be updated with the actual Google form link
-    window.open('https://forms.google.com/your-form-link', '_blank');
+    // Opening the Google Form registration link
+    window.open('https://forms.gle/hyFFHEGrUmhwtaoN9', '_blank');
+  };
+
+  const handleViewAgenda = () => {
+    // Scroll to the events section
+    const eventsSection = document.getElementById('events-section');
+    if (eventsSection) {
+      eventsSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -188,7 +196,10 @@ const Hero: React.FC = () => {
               >
                 🚀 Register for Virtual Event
               </button>
-              <button className="bg-white hover:bg-gray-50 text-purple-600 font-semibold py-4 px-8 rounded-lg border-2 border-purple-600 transition-colors duration-300">
+              <button 
+                onClick={handleViewAgenda}
+                className="bg-white hover:bg-gray-50 text-purple-600 font-semibold py-4 px-8 rounded-lg border-2 border-purple-600 transition-colors duration-300"
+              >
                 📅 View Virtual Event Schedule
               </button>
             </div>
