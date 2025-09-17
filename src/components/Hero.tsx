@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, MapPin } from 'lucide-react';
+import { Calendar, Monitor, Wifi } from 'lucide-react';
 
 interface CountdownState {
   days: number;
@@ -91,20 +91,61 @@ const Hero: React.FC = () => {
           >
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Qiskit Fall Fest 2025
-            </h1>
-            <div className="flex items-center justify-center space-x-6 text-gray-600 mb-8">
-              <div className="flex items-center space-x-2">
-                <MapPin size={20} />
-                <span>KL University</span>
+              <div className="text-2xl md:text-3xl font-normal text-blue-600 mt-2">
+                Virtual Online Meeting
               </div>
+            </h1>
+            
+            {/* Online Event Badge */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full text-base font-bold mb-6 shadow-lg"
+            >
+              <Wifi size={20} />
+              <span>🌐 LIVE ONLINE MEETING</span>
+            </motion.div>
+            
+            {/* Platform Info */}
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8 max-w-2xl mx-auto">
+              <h3 className="text-lg font-semibold text-blue-900 mb-3 flex items-center">
+                <Monitor size={20} className="mr-2" />
+                Online Meeting Platform
+              </h3>
+              <div className="space-y-2 text-blue-800">
+                <div className="flex items-center space-x-2">
+                  <span>�</span>
+                  <span>Interactive video meetings via Zoom/Google Meet</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span>🔗</span>
+                  <span>Meeting links & passwords sent after registration</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span>🌍</span>
+                  <span>Join the online meeting from anywhere worldwide</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span>💬</span>
+                  <span>Live Q&A, chat, and breakout room sessions</span>
+                </div>
+              </div>
+            </div>
+            
+            <div className="flex items-center justify-center space-x-6 text-gray-600 mb-8">
               <div className="flex items-center space-x-2">
                 <Calendar size={20} />
                 <span>November 3-5, 2025</span>
               </div>
+              <div className="flex items-center space-x-2">
+                <span>🕙</span>
+                <span>10:00 AM IST</span>
+              </div>
             </div>
             <p className="text-xl text-gray-700 mb-12 max-w-3xl mx-auto">
-              Join talks, workshops, and community sessions exploring quantum algorithms, 
-              optimization techniques, and the future of quantum computing.
+              Join us for <strong>interactive online meetings</strong> featuring three days of quantum computing workshops, talks, and networking. 
+              Connect with quantum enthusiasts, researchers, and industry experts through live video sessions from around the globe!
             </p>
           </motion.div>
 
@@ -138,17 +179,22 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            className="space-x-4"
+            className="space-y-4"
           >
-            <button
-              onClick={handleRegister}
-              className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-xl"
-            >
-              Register Now
-            </button>
-            <button className="bg-white hover:bg-gray-50 text-purple-600 font-semibold py-3 px-8 rounded-lg border-2 border-purple-600 transition-colors duration-300">
-              View Agenda
-            </button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <button
+                onClick={handleRegister}
+                className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                🚀 Register for Online Meeting
+              </button>
+              <button className="bg-white hover:bg-gray-50 text-purple-600 font-semibold py-4 px-8 rounded-lg border-2 border-purple-600 transition-colors duration-300">
+                📅 View Meeting Schedule
+              </button>
+            </div>
+            <div className="text-sm text-gray-600 max-w-md mx-auto">
+              💡 <strong>Free online meeting</strong> • Join via video call with internet access
+            </div>
           </motion.div>
         </div>
       </div>

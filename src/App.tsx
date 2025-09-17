@@ -4,6 +4,18 @@ import extensionEvent1 from './assets/images/extension-event-1.png';
 function App() {
   return (
     <div className="App">
+      {/* Online Meeting Banner */}
+      <div style={{
+        backgroundColor: '#1e40af',
+        color: 'white',
+        padding: '0.75rem',
+        textAlign: 'center' as const,
+        fontSize: '0.875rem',
+        fontWeight: '600'
+      }}>
+        🌐 ONLINE MEETING EVENT • Join via video call from anywhere • Meeting links sent after registration
+      </div>
+      
       <header style={{ 
         backgroundColor: '#fff', 
         padding: '1rem', 
@@ -20,10 +32,10 @@ function App() {
           alignItems: 'center' 
         }}>
           <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold', margin: 0 }}>
-            Qiskit Fall Fest 2025
+            Qiskit Fall Fest 2025 - Online Meeting
           </h1>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <span style={{ color: '#666' }}>KL University</span>
+            <span style={{ color: '#666' }}>Virtual Event</span>
             <span style={{ color: '#0066cc', fontWeight: 'bold', fontSize: '1.5rem' }}>IBM</span>
           </div>
         </div>

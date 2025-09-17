@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Clock, User, MapPin } from 'lucide-react';
+import { Clock, User, Monitor, Wifi } from 'lucide-react';
 
 interface Session {
   time: string;
@@ -121,13 +121,24 @@ const EventsSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Event Agenda</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Online Meeting Schedule</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Three days of intensive quantum computing workshops, talks, and networking
+            Three days of live interactive online meetings featuring quantum computing workshops and talks!
           </p>
-          <div className="flex items-center justify-center space-x-2 mt-4 text-gray-500">
-            <MapPin size={20} />
-            <span>KL University • November 3-5, 2025</span>
+          
+          {/* Online Event Information */}
+          <div className="flex flex-col items-center space-y-3 mt-6">
+            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold">
+              <Wifi size={16} />
+              <span>LIVE ONLINE MEETINGS</span>
+            </div>
+            <div className="flex items-center justify-center space-x-2 text-gray-500">
+              <Monitor size={20} />
+              <span>Video Conference Platform • November 3-5, 2025</span>
+            </div>
+            <div className="text-sm text-gray-600 bg-gray-50 px-4 py-2 rounded-lg">
+              📧 Zoom/Google Meet links will be shared via email after registration
+            </div>
           </div>
         </motion.div>
 
