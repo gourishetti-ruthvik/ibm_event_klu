@@ -1,5 +1,6 @@
 import './App.css';
 import extensionEvent1 from './assets/images/extension-event-1.png';
+import { scrollToSection } from './utils';
 
 function App() {
   return (
@@ -148,15 +149,16 @@ function App() {
               }}
               onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#f9fafb'}
               onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'white'}
+              onClick={() => scrollToSection('agenda')}
               >
-                View Agenda
+                📅 View Agenda
               </button>
             </div>
           </div>
         </section>
 
         {/* Extension Event Images Section */}
-        <section style={{ 
+        <section id="about" style={{ 
           background: 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)',
           padding: '4rem 1rem' 
         }}>
@@ -281,7 +283,7 @@ function App() {
           </div>
         </section>
 
-        <section style={{ 
+        <section id="agenda" style={{ 
           backgroundColor: 'white', 
           padding: '4rem 1rem' 
         }}>
