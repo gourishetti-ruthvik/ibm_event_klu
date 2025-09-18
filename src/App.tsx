@@ -343,7 +343,13 @@ function App() {
                     { time: "2:00 PM – 5:00 PM IST", title: "VQE (Variational Quantum Eigensolver)", speaker: "Dr. Raghavendra V, SRM University" },
                     { time: "5:00 PM – 5:15 PM IST", title: "Valedictory Function", speaker: "Dr. L. Venkata Subramaniam, IBM Quantum India Lead" }
                   ]
-                }
+                },
+                  {
+                      date: "November 6, 2025",
+                      sessions: [
+                          { time: "10:00 AM – 5:00 PM IST", title: "Hackathon (In-person)", speaker: "IBM Guest Speaker"},
+                      ]
+                  }
               ].map((day, dayIndex) => (
                 <div key={dayIndex}>
                   <div style={{ 
