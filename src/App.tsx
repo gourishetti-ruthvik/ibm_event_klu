@@ -340,14 +340,14 @@ function App() {
                   date: "November 5, 2025",
                   sessions: [
                     { time: "10:00 AM – 1:00 PM IST", title: "QAOA (Quantum Approximate Optimization Algorithm)", speaker: "IBM Guest Speaker" },
-                    { time: "2:00 PM – 5:00 PM IST", title: "VQE (Variational Quantum Eigensolver)", speaker: "Dr. Raghavendra V, SRM University" },
-                    { time: "5:00 PM – 5:15 PM IST", title: "Valedictory Function", speaker: "Dr. L. Venkata Subramaniam, IBM Quantum India Lead" }
+                    { time: "2:00 PM – 5:00 PM IST", title: "VQE (Variational Quantum Eigensolver)", speaker: "Dr. Raghavendra V, SRM University" }
                   ]
                 },
                   {
                       date: "November 6, 2025",
                       sessions: [
                           { time: "10:00 AM – 5:00 PM IST", title: "Hackathon (In-person)", speaker: "IBM Guest Speaker"},
+                          { time: "5:00 PM – 5:15 PM IST", title: "Valedictory Function", speaker: "Dr. L. Venkata Subramaniam, IBM Quantum India Lead" }
                       ]
                   }
               ].map((day, dayIndex) => (
@@ -449,7 +449,7 @@ function App() {
             color: '#888' 
           }}>
             <p>© 2025 KL University. Extension Event - 100 Years of Quantum Mechanics.</p>
-            <p>Powered by IBM Quantum & Qiskit</p>
+            <p>Powered by IBM Quantum</p>
           </div>
         </div>
       </footer>
