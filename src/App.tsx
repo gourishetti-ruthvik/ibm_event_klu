@@ -16,7 +16,7 @@ function App() {
         fontSize: '0.875rem',
         fontWeight: '600'
       }}>
-        🌐 VIRTUAL EVENT • Join via video call from anywhere • Event access links sent after registration
+        🌐 HYBRID EVENT • Attend in person at KL University or join online from anywhere • Event access links will be shared after registration
       </div>
       
       <header style={{ 
@@ -112,7 +112,7 @@ function App() {
               flexWrap: 'wrap' as const
             }}>
               <div>📍 KL University</div>
-              <div>📅 November 3-5, 2025</div>
+              <div>📅 November 3-6, 2025</div>
             </div>
             
             <p style={{ 
@@ -420,7 +420,7 @@ function App() {
           </h3>
           <p style={{ color: '#aaa', marginBottom: '2rem' }}>
             Promoting accessibility of quantum computing to students and researchers, 
-            hosted by KL University in partnership with IBM.
+            hosted by KL University in partnership with IBM Quantum.
           </p>
           <button
             style={{
