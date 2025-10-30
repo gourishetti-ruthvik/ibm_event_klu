@@ -340,7 +340,8 @@ function App() {
                   date: "November 5, 2025",
                   sessions: [
                     { time: "10:00 AM – 1:00 PM IST", title: "QAOA (Quantum Approximate Optimization Algorithm)", speaker: "Mr. Dhiraj Madan, Advisory Research Scientist, IBM Research-India, Embassy Golf Link, Bangalore" },
-                    { time: "2:00 PM – 5:00 PM IST", title: "VQE (Variational Quantum Eigensolver)", speaker: "Dr. Raghavendra V, SRM University" }
+                    { time: "2:00 PM – 4:00 PM IST", title: "VQE (Variational Quantum Eigensolver)", speaker: "Dr. Raghavendra V, SRM University" },
+                    { time: "4:00 PM – 5:00 PM IST", title: "Latest Research Challenges and Applications in Quantum Machine Learning", speaker: "Dr. Kolla Bhanu Prakash, Associate Dean [R&D], Professor, CSE Department, K.L. Deemed to be University, Green Fields, Vaddeswaram, Guntur District, A.P, India" }
                   ]
                 },
                 {
