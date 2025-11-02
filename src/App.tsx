@@ -326,14 +326,14 @@ function App() {
                   sessions: [
                     { time: "10:00 AM IST", title: "Inaugural Address", speaker: "Dr. L. Venkata Subramaniam, IBM Quantum India Lead" },
                     { time: "10:15 AM – 1:00 PM IST", title: "Shor's Algorithm", speaker: "Dr. Jayakumar Vaithiyashankar, CEO of Anuthantra" },
-                    { time: "2:00 PM – 5:00 PM IST", title: "Grover's Algorithm", speaker: "Mr. Dhiraj Madan, Advisory Research Scientist, IBM Research-India, Embassy Golf Link, Bangalore" }
+                    { time: "2:00 PM – 5:00 PM IST", title: "Bernstein–Vazirani Algorithm", speaker: "Mr. Dhiraj Madan, Advisory Research Scientist, IBM Research-India, Embassy Golf Link, Bangalore" }
                   ]
                 },
                 {
                   date: "November 4, 2025",
                   sessions: [
                     { time: "10:00 AM – 1:00 PM IST", title: "Deutsch–Jozsa Algorithm", speaker: "Mrs. Guncha Malik, Senior Technical Staff Member, IBM India Pvt Ltd, Embassy Golf Link, Bangalore" },
-                    { time: "2:00 PM – 5:00 PM IST", title: "Bernstein–Vazirani Algorithm", speaker: "Mr. Dhiraj Madan, Advisory Research Scientist, IBM Research-India, Embassy Golf Link, Bangalore" }
+                    { time: "2:00 PM – 5:00 PM IST", title: "Grover's Algorithm", speaker: "Mr. Dhiraj Madan, Advisory Research Scientist, IBM Research-India, Embassy Golf Link, Bangalore" }
                   ]
                 },
                 {
