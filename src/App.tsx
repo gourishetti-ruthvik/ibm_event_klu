@@ -345,9 +345,9 @@ function App() {
                   ]
                 },
                 {
-                  date: "November 6-7, 2025",
+                  date: "November 29-30, 2025 (Tentatively)",
                   sessions: [
-                    { time: "10:00 AM (Nov 6) – 10:00 AM (Nov 7) IST", title: "Hackathon (In-person)", speaker: "Dr. Debasmita Bhoumik, Research Scientist, IBM India Research Lab, Block D Embassy Golf Links Business Park, Bengaluru" },
+                    { time: "10:00 AM (Nov 29) – 10:00 AM (Nov 29) IST", title: "Hackathon (In-person)", speaker: "Dr. Debasmita Bhoumik, Research Scientist, IBM India Research Lab, Block D Embassy Golf Links Business Park, Bengaluru" },
                     { time: "5:00 PM – 5:15 PM IST", title: "Valedictory Function", speaker: "Dr. L. Venkata Subramaniam, IBM Quantum India Lead" }
                   ]
                 }
