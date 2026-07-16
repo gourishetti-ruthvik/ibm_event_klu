@@ -20,26 +20,26 @@ function App() {
       date: 'October 7, 2026',
       sessions: [
         { time: '10:00 AM – 10:15 AM IST', title: 'Inauguration', speaker: 'Event Organizing Team' },
-        { time: '10:15 AM – 11:15 AM IST', title: 'Quantum Machine Learning and Hybrid AI', speaker: 'Anupama Roy' },
-        { time: '11:15 AM – 12:15 PM IST', title: 'QAOA and Quantum Optimization', speaker: 'Amith Singhee' },
-        { time: '2:00 PM – 3:00 PM IST', title: 'Quantum Error Correction and Error Mitigation', speaker: 'Siddharth Golecha' }
+        { time: '10:15 AM – 11:15 AM IST', title: 'Quantum Machine Learning and Hybrid AI', speaker: 'Anupama Roy, IBM India' },
+        { time: '11:15 AM – 12:15 PM IST', title: 'QAOA and Quantum Optimization', speaker: 'Amith Singhee, IBM India' },
+        { time: '2:00 PM – 3:00 PM IST', title: 'Quantum Error Correction and Error Mitigation', speaker: 'Siddharth Golecha, IBM India' }
       ]
     },
     {
       date: 'October 8, 2026',
       sessions: [
-        { time: '10:00 AM – 11:00 AM IST', title: 'Quantum Generative AI', speaker: 'Bhanwar Gupta' },
-        { time: '11:15 AM – 12:15 PM IST', title: 'Quantum Drug Discovery', speaker: 'Sonali Chawla' },
-        { time: '2:00 PM – 3:00 PM IST', title: 'Quantum-Centric Supercomputing', speaker: 'Ritajit Majumdar' }
+        { time: '10:00 AM – 11:00 AM IST', title: 'Quantum Generative AI', speaker: 'Bhanwar Gupta, IBM India' },
+        { time: '11:15 AM – 12:15 PM IST', title: 'Quantum Drug Discovery', speaker: 'Sonali Chawla, IBM India' },
+        { time: '2:00 PM – 3:00 PM IST', title: 'Quantum-Centric Supercomputing', speaker: 'Ritajit Majumdar, IBM India' }
       ]
     },
     {
       date: 'October 9, 2026',
       sessions: [
-        { time: '10:00 AM – 11:15 AM IST', title: 'Real IBM Quantum Hardware Programming with Qiskit', speaker: 'Mrs. Guncha Malik' },
-        { time: '11:30 AM – 12:30 PM IST', title: 'Quantum Software Engineering', speaker: 'Anupama Roy' },
-        { time: '2:00 PM – 3:00 PM IST', title: 'Quantum Cybersecurity and Post-Quantum Cryptography', speaker: 'Siddharth Golecha' },
-        { time: '3:15 PM – 4:15 PM IST', title: 'Quantum Entrepreneurship and Startup Opportunities', speaker: 'Ritajit Majumdar' }
+        { time: '10:00 AM – 11:15 AM IST', title: 'Real IBM Quantum Hardware Programming with Qiskit', speaker: 'Mrs. Guncha Malik, IBM India' },
+        { time: '11:30 AM – 12:30 PM IST', title: 'Quantum Software Engineering', speaker: 'Anupama Roy, IBM India' },
+        { time: '2:00 PM – 3:00 PM IST', title: 'Quantum Cybersecurity and Post-Quantum Cryptography', speaker: 'Siddharth Golecha, IBM India' },
+        { time: '3:15 PM – 4:15 PM IST', title: 'Quantum Entrepreneurship and Startup Opportunities', speaker: 'Ritajit Majumdar, IBM India' }
       ]
     },
     {
@@ -52,13 +52,13 @@ function App() {
   ];
 
   const featuredSpeakers = [
-    'Anupama Roy',
-    'Amith Singhee',
-    'Siddharth Golecha',
-    'Bhanwar Gupta',
-    'Sonali Chawla',
-    'Ritajit Majumdar',
-    'Mrs. Guncha Malik'
+    'Anupama Roy, IBM India',
+    'Amith Singhee, IBM India',
+    'Siddharth Golecha, IBM India',
+    'Bhanwar Gupta, IBM India',
+    'Sonali Chawla, IBM India',
+    'Ritajit Majumdar, IBM India',
+    'Mrs. Guncha Malik, IBM India'
   ];
 
   const organizingTeam = [
