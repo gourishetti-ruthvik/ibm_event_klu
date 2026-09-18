@@ -310,7 +310,7 @@ function App() {
           </p>
           <button
             style={{ backgroundColor: '#7c3aed', color: 'white', fontWeight: 600, padding: '0.75rem 2rem', borderRadius: '0.5rem', border: 'none', cursor: 'pointer', marginBottom: '2rem' }}
-            onClick={() => window.open('https://forms.gle/hyFFHEGrUmhwtaoN9', '_blank')}
+            onClick={() => window.open('https://forms.gle/gMViMq7Mz4ajQvTZA', '_blank')}
           >
             Register for Event
           </button>
