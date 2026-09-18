@@ -129,7 +129,7 @@ function App() {
                 style={{ backgroundColor: '#7c3aed', color: 'white', fontWeight: 600, padding: '0.75rem 2rem', borderRadius: '0.5rem', border: 'none', cursor: 'pointer', transition: 'background-color 0.3s' }}
                 onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#6d28d9')}
                 onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#7c3aed')}
-                onClick={() => window.open('https://forms.gle/hyFFHEGrUmhwtaoN9', '_blank')}
+                onClick={() => window.open('https://forms.gle/gMViMq7Mz4ajQvTZA', '_blank')}
               >
                 Register Now
               </button>
