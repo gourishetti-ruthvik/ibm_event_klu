@@ -73,11 +73,6 @@ function App() {
     'Kondapi Sri Pranav'
   ];
 
-  const contacts = [
-    { name: 'Kondapi Sri Pranav', phone: '+91 7075528548' },
-    { name: 'G. Ruthvik', phone: '+91 7842453961' }
-  ];
-
   return (
     <div className="App">
       <div style={{ backgroundColor: '#1e40af', color: 'white', padding: '0.75rem', textAlign: 'center', fontSize: '0.875rem', fontWeight: 600 }}>
@@ -287,13 +282,9 @@ function App() {
             <p style={{ fontSize: '1rem', color: '#666', marginBottom: '2.5rem' }}>Have questions? Reach out to our coordinators</p>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem', maxWidth: '650px', margin: '0 auto' }}>
-              {contacts.map((contact) => (
-                <div key={contact.name} style={{ backgroundColor: 'white', borderRadius: '0.75rem', padding: '1.5rem', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08)' }}>
-                  <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>📞</div>
-                  <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#111', marginBottom: '0.5rem' }}>{contact.name}</h3>
-                  <a href={`tel:${contact.phone}`} style={{ fontSize: '1rem', color: '#7c3aed', fontWeight: 600, textDecoration: 'none', display: 'block', marginBottom: '0.25rem' }}>
-                    {contact.phone}
-                  </a>
+              {['Kondapi Sri Pranav', 'G. Ruthvik'].map((name) => (
+                <div key={name} style={{ backgroundColor: 'white', borderRadius: '0.75rem', padding: '1.5rem', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08)' }}>
+                  <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#111', marginBottom: '0.5rem' }}>{name}</h3>
                   <div style={{ fontSize: '0.8rem', color: '#666', marginTop: '0.25rem' }}>Student Coordinator</div>
                 </div>
               ))}
